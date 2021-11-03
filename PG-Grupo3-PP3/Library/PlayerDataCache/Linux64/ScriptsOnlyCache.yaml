@@ -36,7 +36,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 136
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -814,4 +814,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathe/Desktop/PP3.x86_64
+  playerPath: C:/Users/mathe/Documents/faculdade/PG/PP3/linux-build/PP3.x86_64

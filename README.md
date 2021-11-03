@@ -1,12 +1,36 @@
 # ProcessamentoGrafico-Projeto
 Repositório destinado a realização do trabalho da disciplina de Processamento Gráfico.
 
-PP3 - Criação de um cenario 3D de um tabuleiro de xadrez e inserção de Peças nele.
+## PP3 - Criação de um cenario 3D de um tabuleiro de xadrez e inserção de Peças nele.
 
 O Unity já disponibiliza quando criamos um projeto o cenário 3D, uma câmera padrão e uma iluminação.
 
-Para simular o tabuleiro criamos um objeto 3D denominado plane disponibilizado pelo Unity, que depois foi renomeado como Tabuleiro. Por padrão quando criamos o plano sua origem estava localizada no ponto (373.82, 276.02, 860.06) para facilitar a sua manipulação realizamos a translação para translada-lo até a origem do mundo (0, 0, 0). A escala do plano que inicialmente era de 1x1x1 foi aumentada para 80x1x80 (somente os eixos x e z aumentam) utilizando a escala, desse modo cada posição do tabuleiro passou a ter um tamanho 10x10. Em seguida aplicamos uma textura ao plano para que ele realmente tivesse a coloração de um tabuleiro de xadrez. Não foi necessária a aplicação de uma rotação ao plano.
+### O tabuleiro
+Para simular o tabuleiro criamos um objeto 3D denominado plane disponibilizado pelo Unity, que depois foi renomeado como Tabuleiro. Por padrão quando criamos o plano sua origem estava localizada no ponto (373.82, 276.02, 860.06) para facilitar a sua manipulação realizamos a translação para move-lo até a origem do mundo (0, 0, 0). A escala do plano que inicialmente era de (x = 1, y = 1, z = 1) foi aumentada para (x = 80, y = 1, z =80) somente os eixos x e z do plano foram aumentados utilizando a escala, uma vez que o tabuleiro é um plano, desse modo cada posição do tabuleiro passou a ter um tamanho 10x10 unidades de medida. Em seguida aplicamos uma textura ao plano para que ele realmente tivesse a coloração de um tabuleiro de xadrez. Não foi necessária a aplicação de uma rotação ao plano.
 
-Dama: Essa peça foi obtida do TURBOSQUID um site que disponibiliza objetos 3D para serem utilizados em diferentes ferramentas. Inicialmente as coodernadas de origem desse objeto quando convertido para o sistema de coordenadas do mundo era (-415, -43, 883) o que não era o ideal para o nosso projeto, então tivemos que translada-lo para a origem do mundo para em seguida translada-lo novamente até a sua respectiva posição no tabuleiro, no fim sua origem ficou localizada no ponto (-363, 94, 50). Além disso o objeto já veio rotacionado 90° em relação ao eixo x para manter a peça em pé, caso ela viesse com 0° a peça estaria deitada. Uma outra alteração foi na escala da peça para que ela ocupasse todo o espaço da sua posição no tabuleiro, por padrão sua escala era de 1x1x1 e aumentamos ela para 1,29x1,29x1,29.
+**Observação:** na perspectiva de visão dos jogadores em relação ao tabuleiro consideramos que  os eixos do sistema de coordenadas (considerando o plano xz) do mundo estão dispostos de modo que o movimento das peças na horizontal é representado pelo eixo z e a movimentação das peças na vertical é representada pelo eixo x. O eixo y não faz muita diferença, pois as peças não vão voar sobre o tabuleiro, apenas alteramos o valor de y das peças para 1, ficando 1 unidade acima do tabuleiro.
+
+### Movimentação das peças sob a perspectiva dos jogadores em relação ao tabuleiro:
+
+**Peças Brancas**
+- Mover para a esquerda: basta aplicar a translação adicionando uma constante positiva a coordenada z da peça.
+- Mover para a direita: basta aplicar a translação adicionando uma constante negativa a coordenada z da peça.
+- Mover para a frente: basta aplicar a translação somando uma constante positiva a coordenada x.
+- Mover para traz: basta aplicar a translação somando uma constante negativa a coordenada x.
+
+**Peças Pretas**
+- Mover para a esquerda: basta aplicar a translação somando uma constante negativa a coordenada z.
+- Mover para a direita: basta aplicar a translação somando uma constante positiva a coordenada z. 
+- Mover para a frente: basta aplicar a translação somando uma constante negativa a coordenada x.
+- Mover para traz: basta aplicar a translação somando uma constante positiva a coordenada x.  
+
+### Adição das peças no mundo e o seu correto posicionamento no tabuleiro.
+**Observação:** todas as peças foram obtidas do TURBOSQUID um site que disponibiliza objetos 3D para serem utilizados em diferentes ferramentas.
+
+- Rainha Branca: Quando adicionamos essa peça ao mundo ela foi posicionada na origem dele (0, 0, 0) o que de certo modo ajudou na disposição da peça dentro do tabuleiro, antes de realizar a translação para a posição correta da rainha branca dentro do tabuleiro realizamos a modificação no tamanho do objeto que era muito pequeno quando comparado com o tabuleiro, fizemos varios testes para verificar qual era o melhor tamanho para a peça e decidimos escolher a constante 4 que quando somadmultiplicada as coordenadas do objeto resultou em uma escala de 5x5x5. Em seguida realizamos a movimentação da peça até a sua posição dentro do tabuleiro para isso somamos -349 de x e somamos -50 a z (moveu para tras e para a direita na perspectiva do jogador que possui as peças branca). 
+- Rainha Preta: Possui as mesmas caracteristicas iniciais da rainha preta, a unica coisa que muda são os valores atribuidos as coordenadas x e z que nesse caso foi +349 e -50 respectivamente (moveu para traz e para a esquerada na perspectiva do jogador que possui as peças pretas) 
+- Rei Branco: mesmo processo das rainhas, porem o valor de x e z durante a translação foi de -349 e 50 respectivamente (moveu para traz e para a esquerda).
+- Rei Preto: fez uma translação de +349 no eixo x e +50 no eixo x (moveu para traz e para a direita).
+- Torres: Mesmo processo para cada uma das quatro torres, aumento de escala de 1x1x1 para 5x5x5 a unica diferenças em cada uma é a translação realizada, no caso da torre branca da esquerda ela saiu da origem (0, 0, 0) para a posição de coordenada (-349, 1, 349), no caso da torre branca da direita saiu da origem (0, 0, 0) para (-349, 1, 349), a torre preta que fica na direita saiu da origem (0, 0, 0) para o ponto (349, 1, 349) e a torre preta da esquerda saiu da origem para o ponto (349, 1, -349).
 
 
