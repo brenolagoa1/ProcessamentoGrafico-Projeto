@@ -97,7 +97,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/mathe/Documents/faculdade/PG/PP3/PG-Grupo3-PP3/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/mathe/Desktop/PP3/PG-Grupo3-PP3/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"

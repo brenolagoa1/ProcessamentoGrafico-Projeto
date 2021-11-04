@@ -814,4 +814,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/mathe/Documents/faculdade/PG/PP3/windows-build/PG-Grupo3-PP3.exe
+  playerPath: C:/Users/mathe/Desktop/windows-executavel/PG-Grupo3-PP3.exe
