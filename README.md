@@ -32,5 +32,6 @@ Para simular o tabuleiro criamos um objeto 3D denominado plane disponibilizado p
 - Rei Branco: mesmo processo das rainhas, porem o valor de x e z durante a translação foi de -349 e 50 respectivamente (moveu para traz e para a esquerda).
 - Rei Preto: fez uma translação de +349 no eixo x e +50 no eixo x (moveu para traz e para a direita).
 - Torres: Mesmo processo para cada uma das quatro torres, aumento de escala de 1x1x1 para 5x5x5 a unica diferenças em cada uma é a translação realizada, no caso da torre branca da esquerda ela saiu da origem (0, 0, 0) para a posição de coordenada (-349, 1, 349), no caso da torre branca da direita saiu da origem (0, 0, 0) para (-349, 1, 349), a torre preta que fica na direita saiu da origem (0, 0, 0) para o ponto (349, 1, 349) e a torre preta da esquerda saiu da origem para o ponto (349, 1, -349).
+- Cavalos: Aumento da escala de 1x1x1 (padrão) para 5x5x5 a fim de condizer com as outras peças. Todos os cavalos saíram da origem e se deslocaram 345 em X e 150 em Z. Ao final, os cavalos brancos ficaram com a posição (-345, 0, -150) para o da esquerda e (-345, 0, 150) para o da direita, e os pretos ficaram com (345, 0, -150) na esquerda e (345, 0, 150) na direita. Também foi necessário adicionar o material cor-preta criado às peças pretas e rotacioná-las em 180° no eixo Y
 
 
