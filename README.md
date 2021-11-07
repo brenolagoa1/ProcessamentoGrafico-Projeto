@@ -1,6 +1,17 @@
 # ProcessamentoGrafico-Projeto
 Repositório destinado a realização do trabalho da disciplina de Processamento Gráfico.
 
+## Execução
+Para rodar o programa é necessário seguir os seguintes passos:
+1. Instalar o ambiente Python mais recente, encontrado neste [link](https://www.python.org/downloads/)
+2. Baixar o projeto em .zip pelo Github ou clonar o projeto pelo Terminal com o comando:<br/> ``git clone https://github.com/MatheusFernando13/ProcessamentoGrafico-Projeto.git``
+3. Abrir a pasta ``ProcessamentoGrafico-Projeto`` no explorador de arquivos e depois abrir ``PG-Grupo3-PP3-Compilado`` no terminal do seu computador
+4. Digitar o comando ``py -m http.server 8000`` no terminal
+5. Entrar no Broswer de sua preferência e digitar o caminho ``localhost:8000"
+
+Após isso, o projeto feito pelo grupo irá carregar dentro do navegador.
+
+
 ## PP3 - Criação de um cenario 3D de um tabuleiro de xadrez e inserção de Peças nele.
 
 O Unity já disponibiliza quando criamos um projeto o cenário 3D, uma câmera padrão e uma iluminação.
