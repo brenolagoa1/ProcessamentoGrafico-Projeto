@@ -7,7 +7,7 @@ Para rodar o programa é necessário seguir os seguintes passos:
 2. Baixar o projeto em .zip pelo Github ou clonar o projeto pelo Terminal com o comando:<br/> ``git clone https://github.com/MatheusFernando13/ProcessamentoGrafico-Projeto.git``
 3. Abrir a pasta ``ProcessamentoGrafico-Projeto`` no explorador de arquivos e depois abrir ``PG-Grupo3-PP3-Compilado`` no terminal do seu computador
 4. Digitar o comando ``py -m http.server 8000`` no terminal
-5. Entrar no Broswer de sua preferência e digitar o caminho ``localhost:8000"
+5. Entrar no Broswer de sua preferência e digitar o caminho ``localhost:8000``
 
 Após isso, o projeto feito pelo grupo irá carregar dentro do navegador.
 
