@@ -10,6 +10,12 @@ Para rodar o programa é necessário seguir os seguintes passos:
 5. Entrar no Broswer de sua preferência e digitar o caminho ``localhost:8000``
 
 Após isso, o projeto feito pelo grupo irá carregar dentro do navegador.
+<div align="center">
+  <figure>
+    <figcaption><b>Imagem da execução do projeto</b></figcaption>
+	<img src="https://github.com/MatheusFernando13/ProcessamentoGrafico-Projeto/blob/main/Imagens/print_projeto_execução.png" alt="Uma imagem impressionante">
+</figure>
+  </div>
 
 
 ## PP3 - Criação de um cenario 3D de um tabuleiro de xadrez e inserção de Peças nele.
