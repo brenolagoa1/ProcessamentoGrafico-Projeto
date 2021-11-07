@@ -33,13 +33,13 @@ Para simular o tabuleiro criamos um objeto 3D denominado plane disponibilizado p
 - Mover para a esquerda: basta aplicar a translação adicionando uma constante positiva a coordenada z da peça.
 - Mover para a direita: basta aplicar a translação adicionando uma constante negativa a coordenada z da peça.
 - Mover para a frente: basta aplicar a translação somando uma constante positiva a coordenada x.
-- Mover para traz: basta aplicar a translação somando uma constante negativa a coordenada x.
+- Mover para trás: basta aplicar a translação somando uma constante negativa a coordenada x.
 
 **Peças Pretas**
 - Mover para a esquerda: basta aplicar a translação somando uma constante negativa a coordenada z.
 - Mover para a direita: basta aplicar a translação somando uma constante positiva a coordenada z. 
 - Mover para a frente: basta aplicar a translação somando uma constante negativa a coordenada x.
-- Mover para traz: basta aplicar a translação somando uma constante positiva a coordenada x.  
+- Mover para trás: basta aplicar a translação somando uma constante positiva a coordenada x.  
 
 ### Adição das peças no mundo e o seu correto posicionamento no tabuleiro.
 **Observação:** todas as peças foram obtidas do TURBOSQUID um site que disponibiliza objetos 3D para serem utilizados em diferentes ferramentas.
