@@ -108,8 +108,8 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/mathe/Documents/faculdade/PG/PP4/PG-Grupo3-PP3/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/mathe/Documents/faculdade/PG/PP4/PG-Grupo3-PP3/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/mathe/Documents/faculdade/PG/PP4-2/PG-Grupo3-PP3/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/mathe/Documents/faculdade/PG/PP4-2/PG-Grupo3-PP3/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/scripts/ModificaCameras.cs"
+"Assets/scripts/RotacionaTabuleiro.cs"
 -langversion:8.0
 
 /deterministic

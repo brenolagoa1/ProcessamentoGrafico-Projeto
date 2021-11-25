@@ -108,9 +108,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/mathe/Documents/faculdade/PG/PP4/PG-Grupo3-PP3/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"C:/Users/mathe/Documents/faculdade/PG/PP4/PG-Grupo3-PP3/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"C:/Users/mathe/Documents/faculdade/PG/PP4/PG-Grupo3-PP3/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/mathe/Documents/faculdade/PG/PP4-2/PG-Grupo3-PP3/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/mathe/Documents/faculdade/PG/PP4-2/PG-Grupo3-PP3/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/mathe/Documents/faculdade/PG/PP4-2/PG-Grupo3-PP3/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Program Files/Unity-Editor/2021.1.27f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
