@@ -21,7 +21,7 @@ public class RotacionaTabuleiro : MonoBehaviour
 
         if (isRotate)
         {
-            transform.Rotate(Vector3.up * 0.1f, Space.Self);
+            transform.Rotate(Vector3.up * 0.45f, Space.Self);
         }
         else
         {
