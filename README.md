@@ -56,3 +56,10 @@ Para simular o tabuleiro criamos um objeto 3D denominado plane disponibilizado p
 ### A câmera
 Quando o projeto foi criado a câmera estava posicionada na coordenada (0, 1, -10) do mundo, sua projeção era do tipo perspectiva, seu ângulo de visão era de 60° e sua direção de projeção estava sob o eixo z. Para projetar a cena sob o ponto de vista do jogador das peças branca decidimos mudar a camera de posição então aplicamos a translação, para que ela saisse da posição de coordenadas (0, 1, -10) para a posição de coordenadas (-550, 450, 16). Quanto a projeção mantemos a do tipo perspectiva pala simular a realiade. No caso da direção de projeção tivemos que mudar do eixo z para o eixo x devido a disposição do tabuleiro no mundo, para fazer isso aplicamos a rotação de 90° sob o eixo y, além disso aplicamos uma rotação de 45° sob o eixo x para que o eixo de projeção nesse caso o x focasse o tabuleiro, uma vez que a camera estava acima do tabuleiro. Para que todo o tabuleiro fosse projetado modificamos o seu campo de visão de 60° para 61°.
 
+
+## PP4
+
+### As câmeras
+Além da câmera da etapa anterior adicionamos 3 novas câmeras, que estão posicionadas nas latereis (visão dos jogadores + visão lateral) do tabuleiro, uma delas possui a projeção do tipo paralela. Para mudar de uma câmera para outra criamos um script que permite ao usuário da aplicação realizar essa ação ao clicar na tecla space do teclado. 
+
+
