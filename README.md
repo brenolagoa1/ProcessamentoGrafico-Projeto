@@ -60,6 +60,14 @@ Quando o projeto foi criado a câmera estava posicionada na coordenada (0, 1, -1
 ## PP4
 
 ### As câmeras
-Além da câmera da etapa anterior adicionamos 3 novas câmeras, que estão posicionadas nas latereis (visão dos jogadores + visão lateral) do tabuleiro, uma delas possui a projeção do tipo paralela. Para mudar de uma câmera para outra criamos um script que permite ao usuário da aplicação realizar essa ação ao clicar na tecla space do teclado. 
+Ao todo existem 4 cameras disposta no mundo de modo que cada uma possa capturar uma determinada visão do tabuleiro. 
+- **Camera 0**: possui a projeção do tipo perspectiva e está localizada na posição de coordenadas (-520, 460, 0) do mundo, possui um angulo de visão de 82°, uma inclinação de 55° no eixo x e 90° no eixo y.
+- **Camera 1:** possui a projeção do tipo perspectiva e está localizada na posição de coordenadas (520, 460, 0) do mundo, possui um angulo de visão de 82°, uma inclinação de 55° no eixo x e -90° no eixo y.
+- **Camera 2:** possui a projeção do tipo paralela, está localizada na posição de coordenadas (0, 450, 0) do mundo, possui um tamanho de campo de visão de 550, uma inclinação de 90° no eixo x. Ela possui uma visão de cima do tabuleiro.
+- **Camera 3:** possui a projeção do tipo paralela, está localizada na posição de coordenadas (0, 400, 450) do mundo, possui um tamanho de 450, uma inclinação de 15° no eixo x e 180° no eixo y. Inicialmente ela possui uma visão lateral do tabuleiro. 
+Para mudar de uma câmera para outra criamos um script que permite ao usuário da aplicação realizar essa ação ao clicar na tecla **space** do teclado.
+
+### Os movimentos
+
 
 
