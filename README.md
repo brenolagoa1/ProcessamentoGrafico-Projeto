@@ -68,6 +68,7 @@ Ao todo existem 4 cameras disposta no mundo de modo que cada uma possa capturar 
 Para mudar de uma câmera para outra criamos um script que permite ao usuário da aplicação realizar essa ação ao clicar na tecla **space** do teclado.
 
 ### Os movimentos
-
+Para realizar os movimentos foi necessario criar um script chamado RotacionaTabuleiro, o qual tem como função rotacionar o tabuleiro e as peças em conjunto, para isso foi utilizado o sistema de hierarquia do unity que ao colocarmos as peças na hierarquia do tabuleiro por consequência irão se movimentar em conjunto com o tabuleiro, de forma que não fossem perdidas as coordenadas de suas posições dentro do tabuleiro(casas). 
+Essa rotação para que seja iniciada é necessario clicar na tecla P que serve para iniciar e parar o movimento, movendo automaticamente a primeira peça(peão preto), única peça com movimento dependente do tabuleiro estar rodando. Em sequencia para mover as outras peças, que podem se mover com o tabuleiro movendo ou parado, são primeiramente a Dama(tecla D), depois o Rei(tecla R) e por fim a Torre(tecla T), sendo necessário clicar nas teclas nessa ordem, para que possam se mover corretamente como se os jogadores estivessem jogando. Para o movimento dessas peças foi aplicada, em cada quadro, a técnica de rotação até sua posição destino correspondente e também foi aplicada, em cada quadro, a técnica de translação para o tabuleiro
 
 
